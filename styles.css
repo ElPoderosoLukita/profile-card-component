@@ -1,0 +1,49 @@
+:root{
+   --darkcyan: hsl(185, 75%, 39%);
+   --verydarkdesaturatedblue: hsl(229, 23%, 23%);
+   --darkgrayishblue: hsl(227, 10%, 46%);
+   --darkgray: hsl(0, 0%, 59%);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+body{
+    background-color: var(--darkcyan);
+    display: flex;
+    justify-content: center;
+    height: 57rem;
+}
+main{
+    background-color: white;
+    width: 80%;
+    height: 40rem;
+    min-width: 320px;
+    border-radius: 15px;
+    margin-top: 50px;
+    position: absolute;
+    margin-top: 120px;
+    z-index: 1;
+}
+.background-image{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+}
+.top{
+    width: 40rem;
+    position: absolute;
+    top: -200px;
+    left: -250px;
+}
+.bottom{
+    width: 40rem;
+    position: absolute;
+    bottom: -70%;
+    right: -250px;
+}
