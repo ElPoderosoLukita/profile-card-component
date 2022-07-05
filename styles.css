@@ -42,8 +42,9 @@ main{
     left: -250px;
 }
 .bottom{
-    width: 40rem;
+    height: 80rem;
+    width: 80rem;
     position: absolute;
-    bottom: -70%;
-    right: -250px;
+    bottom: -90%;
+    right: -500px;
 }
